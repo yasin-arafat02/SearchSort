@@ -5,6 +5,7 @@ void selectionSort(int arr[], int n) {
         int minIndex = i;
         for (int j = i + 1; j < n; j++) {
             if (arr[j] < arr[i]){
+                cout<<"Pass >"<<endl;
                 minIndex = j;
                 for (int k = 0; k < n; k++) {
                     cout << arr[k] << " ";
